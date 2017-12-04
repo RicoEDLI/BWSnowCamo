@@ -1,8 +1,7 @@
 
 class CfgPatches
 {
-	#include "CfgPatches.cpp",
-	#include "BW_Unit_Snow"
+	#include "CfgPatches.cpp"
 };
 
 class CfgVehicles
