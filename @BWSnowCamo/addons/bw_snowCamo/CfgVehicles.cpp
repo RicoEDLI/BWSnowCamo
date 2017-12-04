@@ -20,8 +20,8 @@ class B_BW_Snow_Rifleman : B_Soldier_base_F
     displayName = "Soldat";
     uniformAccessories[] = {};
     nakedUniform = "U_BasicBody";
-    uniformClass = "B_BW_Unit_Snow";
-    uniform = "B_BW_Unit_Snow";
+    uniformClass = "BW_Unit_Snow";
+    uniform = "BW_Unit_Snow";
     model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
     hiddenSelections[] = {
         "Camo"
@@ -30,7 +30,7 @@ class B_BW_Snow_Rifleman : B_Soldier_base_F
         "\bw_snowCamo\bw_unit_snow\data\bw_unit_snow_co.paa"
     };
     linkedItems[] = {
-        "B_BW_Unit_Snow",
+        "BW_Unit_Snow",
         "BWA3_Vest_Rifleman1_Fleck",
         "BW_M92_Snow",
         "ItemGPS",
