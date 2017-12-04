@@ -4,7 +4,7 @@ class BW_Unit_Snow
     units[] = {};
     weapons[] = {
         "BW_Unit_Snow",
-        "BW_M92_Snow",
+        "BW_M92_Snow"
     };
     requiredVersion = 1.76;
     requiredAddons[] = {
