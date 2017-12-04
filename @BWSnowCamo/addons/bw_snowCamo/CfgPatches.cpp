@@ -1,5 +1,5 @@
 
-class BW_Schnee_Units
+class BW_Snow_Units
 {
     units[] = {};
     weapons[] = {
