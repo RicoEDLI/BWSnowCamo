@@ -16,7 +16,7 @@ class BW_Unit_Snow : U_I_CombatUniform
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
     class ItemInfo : UniformItem
     {
-        uniformClass = "BW_Unit_Snow";
+        uniformClass = "I_CombatUniform";
         containerClass = "Supply50";
         mass = 40;
         hiddenSelections[] = {
