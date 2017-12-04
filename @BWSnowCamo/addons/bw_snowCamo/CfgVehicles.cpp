@@ -30,7 +30,7 @@ class B_BW_Snow_Rifleman : B_Soldier_base_F
         "\bw_snowCamo\bw_unit_snow\data\bw_unit_snow_co.paa"
     };
     linkedItems[] = {
-        "BW_Unit_Snow",
+        "B_BW_Unit_Snow",
         "BWA3_Vest_Rifleman1_Fleck",
         "BW_M92_Snow",
         "ItemGPS",
