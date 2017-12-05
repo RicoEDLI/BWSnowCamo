@@ -6,6 +6,7 @@ class U_I_CombatUniform;
 
 //The uniform item for a normal snow camo
 class BW_Unit_Snow : U_I_CombatUniform
+{
     scope = 2;
     displayName = "Kampfanzug Schneetarn";
     picture = "\bw_snowCamo\bw_unit_snow\data\ui\icons\icon.paa";
