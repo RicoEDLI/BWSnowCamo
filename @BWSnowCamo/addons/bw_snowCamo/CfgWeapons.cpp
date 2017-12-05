@@ -2,10 +2,10 @@
 class UniformItem;
 class ItemCore;
 class HeadgearItem;
-class U_B_CombatUniform;
+class U_B_CombatUniform_mcam;
 
 //The uniform item for a normal snow camo
-class BW_Unit_Snow : U_B_CombatUniform
+class BW_Unit_Snow : U_B_CombatUniform_mcam
 {
     scope = 2;
     displayName = "Kampfanzug Schneetarn";
@@ -16,7 +16,7 @@ class BW_Unit_Snow : U_B_CombatUniform
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
     class ItemInfo : UniformItem
     {
-        uniformClass = "BW_Unit_Snow";
+        uniformClass = "B_BW_Unit_Snow";
         containerClass = "Supply50";
         mass = 40;
         hiddenSelections[] = {

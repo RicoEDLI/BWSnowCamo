@@ -1,8 +1,8 @@
 
-class B_Soldier_base_F;
-class B_soldier_F;
 
-class BW_Unit_Snow : B_soldier_F
+class B_Soldier_F;
+
+class B_BW_Unit_Snow : B_Soldier_F
 {
     faction = "";
     hiddenSelectionsTextures[] = {
@@ -10,9 +10,9 @@ class BW_Unit_Snow : B_soldier_F
     };
 };
 
-class B_BW_Snow_Rifleman : B_Soldier_base_F
+class BW_Snow_Rifleman : B_Soldier_F
 {
-    _generalMacro = "B_BW_Schnee_Rifleman";
+    _generalMacro = "B_Soldier_F";
     author = "RicoEDLI";
     faction = "BW_Schnee_Faction";
     vehicleClass = "BW_VehClass_Men_Snow";
