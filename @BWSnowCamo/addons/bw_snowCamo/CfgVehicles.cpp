@@ -22,7 +22,7 @@ class B_BW_Snow_Rifleman : B_Soldier_base_F
     nakedUniform = "U_BasicBody";
     uniformClass = "BW_Unit_Snow";
     uniform = "BW_Unit_Snow";
-    model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+    model = "\bw_snowCamo\bw_unit_snow\data\model.p3d";
     hiddenSelections[] = {
         "Camo"
     };
