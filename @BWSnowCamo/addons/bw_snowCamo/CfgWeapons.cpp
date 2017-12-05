@@ -2,10 +2,10 @@
 class UniformItem;
 class ItemCore;
 class HeadgearItem;
-class U_I_CombatUniform;
+class U_B_CombatUniform_mcam_vest;
 
 //The uniform item for a normal snow camo
-class BW_Unit_Snow : U_I_CombatUniform
+class BW_Unit_Snow : U_B_CombatUniform_mcam_vest
 {
     scope = 2;
     displayName = "Kampfanzug Schneetarn";

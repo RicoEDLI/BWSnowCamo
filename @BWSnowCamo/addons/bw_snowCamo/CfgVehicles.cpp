@@ -1,8 +1,8 @@
 
 class B_Soldier_base_F;
-class I_soldier_F;
+class B_soldier_F;
 
-class BW_Unit_Snow : I_soldier_F
+class BW_Unit_Snow : B_soldier_F
 {
     faction = "";
     hiddenSelectionsTextures[] = {
