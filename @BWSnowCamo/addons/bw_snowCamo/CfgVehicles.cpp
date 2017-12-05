@@ -1,8 +1,8 @@
 
 class B_Soldier_base_F;
-class I_soldier_F;
+class B_soldier_F;
 
-class BW_Unit_Snow : I_soldier_F
+class BW_Unit_Snow : B_soldier_F
 {
     faction = "";
     hiddenSelectionsTextures[] = {
@@ -22,7 +22,7 @@ class B_BW_Snow_Rifleman : B_Soldier_base_F
     nakedUniform = "U_BasicBody";
     uniformClass = "BW_Unit_Snow";
     uniform = "BW_Unit_Snow";
-    model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+    model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
     hiddenSelections[] = {
         "Camo"
     };
