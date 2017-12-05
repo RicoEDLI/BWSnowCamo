@@ -2,7 +2,7 @@
 class UniformItem;
 class ItemCore;
 class HeadgearItem;
-class U_I_CombatUniform;
+class U_I_CombatUniform
 
 //The uniform item for a normal snow camo
 class BW_Unit_Snow : U_I_CombatUniform
