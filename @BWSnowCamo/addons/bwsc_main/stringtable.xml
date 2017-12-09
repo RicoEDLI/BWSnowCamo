@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8">
+<Project name="BWSnowCamo">
+    <Package name="bwsc_main">
+        <Container name="ConfigTitle">
+            <Key ID="STR_bwsc_main_ConfigTitle_factionName">
+                <Original>Bundeswehr (Snow)</Original>
+                <English>Bundeswehr (Snow)</English>
+                <German>Bundeswehr (Schnee)</German>
+            </Key>
+            <Key ID="STR_bwsc_main_ConfigTitle_factionInfantry">
+                <Original>Infantry</Original>
+                <English>Infantry</English>
+                <German>Infanterie</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

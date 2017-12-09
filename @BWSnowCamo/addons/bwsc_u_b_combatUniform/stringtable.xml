@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="utf-8">
+<Project name="BWSnowCamo">
+    <Package name="bwsc_u_b_combatUniform">
+        <Container name="ConfigTitle">
+            <Key ID="STR_bwsc_u_b_combatUniform_ConfigTitle_combatUniform">
+                <Original>BW Combat Fatigues 1 (Snow)</Original>
+                <English>BW Combat Fatigues 1 (Snow)</English>
+                <German>BW Kampfanzug 1 (Schnee)</German>
+            </Key>
+            <Key ID="STR_bwsc_u_b_combatUniform_ConfigTitle_combatUniform_tshirt">
+                <Original>BW Combat Fatigues 1 (Snow) (Tee)</Original>
+                <English>BW Combat Fatigues 1 (Snow) (Tee)</English>
+                <German>BW Kampfanzug 1 (Schnee) (Kurz)</German>
+            </Key>
+            <Key ID="STR_bwsc_u_b_combatUniform_ConfigTitle_combatUniform_sleeves">
+                <Original>BW Combat Fatigues 1 (Snow) (Sleeves)</Original>
+                <English>BW Combat Fatigues 1 (Snow) (Sleeves)</English>
+                <German>BW Kampfanzug 1 (Schnee) (Sleeves)</German>
+            </Key>
+            <Key ID="STR_bwsc_u_b_combatUniform_ConfigTitle_rifleman">
+                <Original>Rifleman</Original>
+                <English>Rifleman</English>
+                <German>Schütze</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

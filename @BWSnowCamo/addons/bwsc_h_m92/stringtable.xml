@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="utf-8">
+<Project name="BWSnowCamo">
+    <Package name="bwsc_h_m92">
+        <Container name="ConfigTitle">
+            <Key ID="STR_bwsc_h_m92_ConfigTitle_helmetName">
+                <Original>M92 (Snow)</Original>
+                <English>M92 (Snow)</English>
+                <German>M92 (Schnee)</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>

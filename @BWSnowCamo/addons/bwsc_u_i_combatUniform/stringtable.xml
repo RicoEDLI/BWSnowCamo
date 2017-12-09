@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8">
+<Project name="BWSnowCamo">
+    <Package name="bwsc_u_i_combatUniform">
+        <Container name="ConfigTitle">
+            <Key ID="STR_bwsc_u_i_combatUniform_ConfigTitle_combatUniform">
+                <Original>BW Combat Fatigues 2 (Snow)</Original>
+                <English>BW Combat Fatigues 2 (Snow)</English>
+                <German>BW Kampfanzug 2 (Schnee)</German>
+            </Key>
+            <Key ID="STR_bwsc_u_i_combatUniform_ConfigTitle_rifleman">
+                <Original>Rifleman</Original>
+                <English>Rifleman</English>
+                <German>Schütze</German>
+            </Key>
+        </Container>
+    </Package>
+</Project>
