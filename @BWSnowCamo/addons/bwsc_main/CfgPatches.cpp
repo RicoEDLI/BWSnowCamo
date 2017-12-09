@@ -1,14 +1,14 @@
 
-class BW_Unit_Snow
+class bwsc_main
 {
     units[] = {};
-    weapons[] = {
-        "BW_Unit_Snow",
-        "BW_M92_Snow"
+    weapons[] = {};
+    author[] = {
+        "TheMysteriousVincent"
     };
     requiredVersion = 1.76;
     requiredAddons[] = {
-        "A3_Characters_F_BLUFOR",
+        "a3_characters_f_blufor",
         "a3_characters_f",
         "a3_characters_f_beta",
         "a3_characters_f_bootcamp",
@@ -17,9 +17,5 @@ class BW_Unit_Snow
         "a3_characters_f_epc",
         "a3_characters_f_gamma",
         "BWA3_Units"
-    };
-    author[] = {
-        "RicoEDLI",
-        "TheMysteriousVincent"
     };
 };

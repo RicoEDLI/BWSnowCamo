@@ -1,38 +1,46 @@
 
-
 class B_Soldier_F;
+class B_Soldier_02_F;
+class B_Soldier_03_F;
 
-class BW_Unit_Snow : B_Soldier_F
+class bwsc_soldier_01 : B_Soldier_F
 {
-    faction = "";
+    scope = 1;
+    displayName = "";
     hiddenSelectionsTextures[] = {
-        "\bw_snowCamo\bw_unit_snow\data\bw_unit_snow_co.paa"
+        "\bwsc_u_b_combatUniform\data\combatUniform_co.paa"
     };
 };
 
-class BW_Snow_Rifleman : B_Soldier_F
+class bwsc_soldier_01_tshirt : B_Soldier_02_F
 {
-    _generalMacro = "B_Soldier_F";
-    author = "RicoEDLI";
-    faction = "BW_Schnee_Faction";
-    vehicleClass = "BW_VehClass_Men_Snow";
-    scope = 2;
-    displayName = "Soldat";
-    uniformAccessories[] = {};
-    nakedUniform = "U_BasicBody";
-    uniformClass = "BW_Unit_Snow";
-    uniform = "BW_Unit_Snow";
-    model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-    hiddenSelections[] = {
-        "Camo"
-    };
+    scope = 1;
+    displayName = "";
     hiddenSelectionsTextures[] = {
-        "\bw_snowCamo\bw_unit_snow\data\bw_unit_snow_co.paa"
+        "\bwsc_u_b_combatUniform\data\combatUniform_co.paa"
     };
+};
+
+class bwsc_soldier_01_sleeves : B_Soldier_03_F
+{
+    scope = 1;
+    displayName = "";
+    hiddenSelectionsTextures[] = {
+        "\bwsc_u_b_combatUniform\data\combatUniform_co.paa"
+    };
+};
+
+class bwsc_soldier_01_F : bwsc_soldier_01
+{
+    scope = 2;
+    displayName = "$STR_bwsc_u_b_combatUniform_ConfigTitle_rifleman";
+    author = "RicoEDLI";
+    faction = "bwsc";
+    vehicleClass = "bwsc_infantry";
+    uniformClass = "u_b_bwsc_combatUniform_01";
     linkedItems[] = {
-        "BW_Unit_Snow",
         "BWA3_Vest_Rifleman1_Fleck",
-        "BW_M92_Snow",
+        "h_bwsc_m92",
         "ItemGPS",
         "ItemMap",
         "ItemCompass",
@@ -41,9 +49,8 @@ class BW_Snow_Rifleman : B_Soldier_F
         "NVGoggles_OPFOR"
     };
     respawnLinkedItems[] = {
-        "BW_Unit_Snow",
         "BWA3_Vest_Rifleman1_Fleck",
-        "BW_M92_Snow",
+        "h_bwsc_m92",
         "ItemGPS",
         "ItemMap",
         "ItemCompass",
